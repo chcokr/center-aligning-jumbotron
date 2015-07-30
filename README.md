@@ -1,4 +1,4 @@
-# <CenterAligningJumbotron>
+# CenterAligningJumbotron
 
 This is a react-bootstrap Jumbotron that center-aligns its children, both
 horizaontally and vertically.
