@@ -4,6 +4,7 @@
   "description": "React-bootstrap Jumbotron that centers children horizontally and vertically.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "rm -f index.js && babel index.jsx > index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
