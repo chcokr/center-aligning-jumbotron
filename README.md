@@ -23,7 +23,7 @@ If you use [stilr](https://github.com/kodyl/stilr) along with
 `center-aligning-jumbotron/stilr` quite helpful.
 
 ```JSX
-import CenterAligningJumbotron from 'center-aligning-jumbotron';
+import CenterAligningJumbotron from 'center-aligning-jumbotron/stilr';
 ```
 
 Same thing, it just works better with stilr-classnames.
