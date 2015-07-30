@@ -4,8 +4,20 @@ Object.assign = require('react/lib/Object.assign');
 
 export default class extends React.Component {
   render() {
+    const baseStyle = {
+      display: 'flex',
+      alignItems: 'center',
+      position: 'relative'
+    };
+    let style = {};
+    if (!this.props.style) {
+      style = baseStyle;
+    } else {
+      style = Object.assign(this.props.style, baseStyle);
+    }
+
     return (
-      <BSJumbotron style={Object.assign(this.props.style, {
+      <BSJumbotron style={style}>
           display: 'flex',
           alignItems: 'center',
           position: 'relative'
