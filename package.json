@@ -1,6 +1,6 @@
 {
   "name": "center-aligning-jumbotron",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React-bootstrap Jumbotron that centers children horizontally and vertically.",
   "main": "index.js",
   "scripts": {
