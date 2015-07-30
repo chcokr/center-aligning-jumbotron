@@ -1,0 +1,33 @@
+{
+  "name": "center-aligning-jumbotron",
+  "version": "0.0.0",
+  "description": "React-bootstrap Jumbotron that centers children horizontally and vertically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "stilr-classnames": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-bootstrap": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chcokr/center-aligning-jumbotron.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "jumbotron",
+    "center",
+    "middle"
+  ],
+  "author": "YJ Yang <chcokr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chcokr/center-aligning-jumbotron/issues"
+  },
+  "homepage": "https://github.com/chcokr/center-aligning-jumbotron#readme"
+}
