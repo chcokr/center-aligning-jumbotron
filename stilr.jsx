@@ -10,8 +10,8 @@ export default class extends React.Component {
             alignItems: 'center',
             position: 'relative'
           }, this.props.className)}>
-        <div className={this.props.fluid ? 'container-fluid' : 'container'}
-          {...style({width: '100%', textAlign: 'center'})}>
+        <div {...style({width: '100%', textAlign: 'center'},
+            this.props.fluid ? 'container-fluid' : 'container')}>
           {this.props.children}
         </div>
     </BSJumbotron>
