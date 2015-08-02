@@ -16,6 +16,13 @@ import CenterAligningJumbotron from 'center-aligning-jumbotron';
 </CenterAligningJumbotron>
 ```
 
+## `fluid` property
+
+By default, there is a `<div class="container">` inside the Jumbotron returned
+by this component.
+The optional `fluid` property (boolean) makes that a
+`<div class="container-fluid">`.
+
 ## Stilr mode
 
 If you use [stilr](https://github.com/kodyl/stilr) along with
