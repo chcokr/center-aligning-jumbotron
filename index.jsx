@@ -18,10 +18,6 @@ export default class extends React.Component {
 
     return (
       <BSJumbotron style={style}>
-          display: 'flex',
-          alignItems: 'center',
-          position: 'relative'
-        })}>
         <div style={{width: '100%', textAlign: 'center'}}>
           {this.props.children}
         </div>
